@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.dev.hasarel.myfarmer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Common.BaseActivity"></activity>
+        <activity android:name=".Activity.Activities.GlobalSearchActivity" />
+        <activity android:name=".Activity.Activities.SettingsActivity" />
+        <activity android:name=".Activity.Activities.AboutActivity" />
+        <activity android:name=".Activity.Activities.HomeActivity" />
+        <activity android:name=".Activity.Activities.SplashActivity" />
+        <activity android:name=".Activity.Activities.RegisterActivity" />
+        <activity android:name=".Activity.Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
